@@ -1,0 +1,7 @@
+@import "./icons.css";
+
+.main-overlay {
+  filter: grayscale(0.5) blur(7px);
+  background-image: url(../assets/images/bg-img.webp);
+  z-index: -1;
+}

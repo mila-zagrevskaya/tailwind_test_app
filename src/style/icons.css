@@ -1,0 +1,66 @@
+.icon,
+.user-icon,
+.calendar-icon,
+.review-icon,
+.group-icon,
+.shopping-cart-icon,
+.checklist  {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
+.icon-14 {
+  width: 14px;
+  height: 14px;
+}
+
+.icon-17{
+  width: 17px;
+  height: 17px;
+}
+
+.icon-20 {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-26,
+.user-icon,
+.calendar-icon,
+.review-icon  {
+  width: 26px;
+  height: 26px;
+}
+
+.icon-42,
+.group-icon,
+.shopping-cart-icon,
+.checklist  {
+  width: 42px;
+  height: 42px;
+}
+
+.calendar-icon {
+  background-image: url(../assets/icons/calendar.svg);
+}
+.user-icon {
+  background-image: url(../assets/icons/man-user.svg);
+  vertical-align: middle;
+}
+.review-icon {
+  background-image: url(../assets/icons/comment.svg);
+}
+
+.group-icon {
+  background-image: url(../assets/icons/users.svg);
+}
+.shopping-cart-icon {
+  background-image: url(../assets/icons/shopping-cart.svg);
+}
+.checklist {
+  background-image: url(../assets/icons/checklist.svg);
+}
